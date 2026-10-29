@@ -1,0 +1,335 @@
+{
+ "calibration": [
+  {
+   "best": "Latin (Vulgate)",
+   "loglik": 15.18,
+   "noise": 0.05,
+   "object": "clean substitution of Latin",
+   "truth": "Latin (Vulgate)"
+  },
+  {
+   "best": "Croatian",
+   "loglik": 16.23,
+   "noise": 0.05,
+   "object": "Latin + 10% nulls",
+   "truth": "Latin (Vulgate)"
+  },
+  {
+   "best": "Latin (Vulgate)",
+   "loglik": 14.26,
+   "noise": 0.1,
+   "object": "Latin, 10% transcription noise",
+   "truth": "Latin (Vulgate)"
+  },
+  {
+   "best": "Croatian",
+   "loglik": 16.18,
+   "noise": 0.3,
+   "object": "Latin, 25% transcription noise",
+   "truth": "Latin (Vulgate)"
+  },
+  {
+   "best": "Czech (catechism)",
+   "loglik": -13.05,
+   "noise": 0.4,
+   "object": "uniform random glyphs",
+   "truth": "uniform"
+  }
+ ],
+ "fits": {
+  "gemini_full": [
+   {
+    "language": "German (Schlachter)",
+    "loglik": -26.1,
+    "marginal": -28.18,
+    "noise": 0.0
+   },
+   {
+    "language": "Hungarian (Erdy codex, XV c.)",
+    "loglik": -26.16,
+    "marginal": -28.24,
+    "noise": 0.0
+   },
+   {
+    "language": "Romanian",
+    "loglik": -46.55,
+    "marginal": -48.62,
+    "noise": 0.05
+   },
+   {
+    "language": "Greek (Brenton, translit.)",
+    "loglik": -51.34,
+    "marginal": -53.42,
+    "noise": 0.05
+   },
+   {
+    "language": "Albanian",
+    "loglik": -52.76,
+    "marginal": -54.84,
+    "noise": 0.05
+   },
+   {
+    "language": "Hungarian (Karoli)",
+    "loglik": -60.79,
+    "marginal": -62.87,
+    "noise": 0.0
+   },
+   {
+    "language": "Italian (Riveduta)",
+    "loglik": -79.97,
+    "marginal": -82.05,
+    "noise": 0.0
+   },
+   {
+    "language": "English (KJV)",
+    "loglik": -82.71,
+    "marginal": -84.79,
+    "noise": 0.0
+   },
+   {
+    "language": "Latin (Vulgate)",
+    "loglik": -142.07,
+    "marginal": -144.15,
+    "noise": 0.0
+   },
+   {
+    "language": "Croatian",
+    "loglik": -207.09,
+    "marginal": -209.17,
+    "noise": 0.0
+   },
+   {
+    "language": "Polish",
+    "loglik": -219.37,
+    "marginal": -221.45,
+    "noise": 0.05
+   },
+   {
+    "language": "Latin (humanist corpus)",
+    "loglik": -270.01,
+    "marginal": -272.09,
+    "noise": 0.1
+   },
+   {
+    "language": "Czech (catechism)",
+    "loglik": -296.33,
+    "marginal": -298.41,
+    "noise": 0.0
+   },
+   {
+    "language": "Italian (Dante)",
+    "loglik": -303.45,
+    "marginal": -305.53,
+    "noise": 0.05
+   },
+   {
+    "language": "Czech (Bible Kralicka 1613)",
+    "loglik": -308.37,
+    "marginal": -310.45,
+    "noise": 0.05
+   },
+   {
+    "language": "Slovak",
+    "loglik": -464.09,
+    "marginal": -466.17,
+    "noise": 0.1
+   }
+  ],
+  "palma_A": [
+   {
+    "language": "Hungarian (Karoli)",
+    "loglik": 15.05,
+    "marginal": 13.06,
+    "noise": 0.3
+   },
+   {
+    "language": "German (Schlachter)",
+    "loglik": 13.99,
+    "marginal": 12.5,
+    "noise": 0.4
+   },
+   {
+    "language": "Hungarian (Erdy codex, XV c.)",
+    "loglik": 13.61,
+    "marginal": 11.95,
+    "noise": 0.3
+   },
+   {
+    "language": "Albanian",
+    "loglik": 13.26,
+    "marginal": 11.4,
+    "noise": 0.3
+   },
+   {
+    "language": "Greek (Brenton, translit.)",
+    "loglik": 12.84,
+    "marginal": 11.15,
+    "noise": 0.3
+   },
+   {
+    "language": "Latin (Vulgate)",
+    "loglik": 11.93,
+    "marginal": 9.91,
+    "noise": 0.3
+   },
+   {
+    "language": "Italian (Dante)",
+    "loglik": 11.78,
+    "marginal": 9.73,
+    "noise": 0.3
+   },
+   {
+    "language": "Italian (Riveduta)",
+    "loglik": 11.61,
+    "marginal": 9.54,
+    "noise": 0.4
+   },
+   {
+    "language": "Polish",
+    "loglik": 11.17,
+    "marginal": 9.21,
+    "noise": 0.25
+   },
+   {
+    "language": "English (KJV)",
+    "loglik": 11.18,
+    "marginal": 9.15,
+    "noise": 0.25
+   },
+   {
+    "language": "Slovak",
+    "loglik": 10.76,
+    "marginal": 9.12,
+    "noise": 0.2
+   },
+   {
+    "language": "Latin (humanist corpus)",
+    "loglik": 10.8,
+    "marginal": 8.8,
+    "noise": 0.3
+   },
+   {
+    "language": "Czech (Bible Kralicka 1613)",
+    "loglik": 9.3,
+    "marginal": 8.13,
+    "noise": 0.2
+   },
+   {
+    "language": "Romanian",
+    "loglik": 9.06,
+    "marginal": 7.1,
+    "noise": 0.4
+   },
+   {
+    "language": "Croatian",
+    "loglik": 8.74,
+    "marginal": 6.93,
+    "noise": 0.25
+   },
+   {
+    "language": "Czech (catechism)",
+    "loglik": 7.23,
+    "marginal": 5.27,
+    "noise": 0.2
+   }
+  ],
+  "palma_B": [
+   {
+    "language": "Hungarian (Erdy codex, XV c.)",
+    "loglik": 8.87,
+    "marginal": 6.88,
+    "noise": 0.15
+   },
+   {
+    "language": "Romanian",
+    "loglik": 7.4,
+    "marginal": 5.68,
+    "noise": 0.2
+   },
+   {
+    "language": "Greek (Brenton, translit.)",
+    "loglik": 4.48,
+    "marginal": 2.53,
+    "noise": 0.1
+   },
+   {
+    "language": "Albanian",
+    "loglik": 2.28,
+    "marginal": 0.95,
+    "noise": 0.1
+   },
+   {
+    "language": "Hungarian (Karoli)",
+    "loglik": 1.01,
+    "marginal": -1.06,
+    "noise": 0.1
+   },
+   {
+    "language": "German (Schlachter)",
+    "loglik": -2.05,
+    "marginal": -4.1,
+    "noise": 0.15
+   },
+   {
+    "language": "English (KJV)",
+    "loglik": -6.57,
+    "marginal": -8.64,
+    "noise": 0.0
+   },
+   {
+    "language": "Italian (Riveduta)",
+    "loglik": -13.35,
+    "marginal": -15.43,
+    "noise": 0.1
+   },
+   {
+    "language": "Latin (Vulgate)",
+    "loglik": -18.76,
+    "marginal": -20.83,
+    "noise": 0.0
+   },
+   {
+    "language": "Latin (humanist corpus)",
+    "loglik": -30.15,
+    "marginal": -32.23,
+    "noise": 0.05
+   },
+   {
+    "language": "Polish",
+    "loglik": -35.25,
+    "marginal": -37.33,
+    "noise": 0.1
+   },
+   {
+    "language": "Czech (catechism)",
+    "loglik": -37.23,
+    "marginal": -39.31,
+    "noise": 0.0
+   },
+   {
+    "language": "Croatian",
+    "loglik": -40.39,
+    "marginal": -41.82,
+    "noise": 0.0
+   },
+   {
+    "language": "Italian (Dante)",
+    "loglik": -42.73,
+    "marginal": -44.79,
+    "noise": 0.15
+   },
+   {
+    "language": "Slovak",
+    "loglik": -44.34,
+    "marginal": -46.42,
+    "noise": 0.05
+   },
+   {
+    "language": "Czech (Bible Kralicka 1613)",
+    "loglik": -53.5,
+    "marginal": -55.42,
+    "noise": 0.0
+   }
+  ]
+ }
+}

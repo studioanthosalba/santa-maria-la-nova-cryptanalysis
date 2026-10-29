@@ -1,0 +1,219 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>16588990-b6f8-40c7-9af8-c44ff04590dc</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>MariaLaNova.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>MariaLaNova</Name>
+    <RootNamespace>MariaLaNova</RootNamespace>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ConstraintProgramming.py" />
+    <Compile Include="CopticCorpus.py" />
+    <Compile Include="Crypto.py" />
+    <Compile Include="epigraphsolver.py" />
+    <Compile Include="Graphs.py" />
+    <Compile Include="GreekCorpus.py" />
+    <Compile Include="LatinCorpus.py" />
+    <Compile Include="MariaLaNova.py" />
+    <Compile Include="NLP.py" />
+    <Compile Include="Palindromes.py" />
+    <Compile Include="MarialanovaOriginal.py" />
+    <Compile Include="Replace.py" />
+    <Compile Include="scriptiocontinua4.txt">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SeleniumFirefox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebScraping.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WordLength.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aporcodex.txt" />
+    <Content Include="bibliahuszita.txt" />
+    <Content Include="bibliahuszitaclean.txt" />
+    <Content Include="bibliahuszitacleancon.txt" />
+    <Content Include="birkcodex.txt" />
+    <Content Include="bodcodex.txt" />
+    <Content Include="bohemian.txt" />
+    <Content Include="bohemian2.txt" />
+    <Content Include="bohemian3.txt" />
+    <Content Include="bohmorigstrclean.txt" />
+    <Content Include="christinalegend.txt" />
+    <Content Include="copticbible.txt" />
+    <Content Include="copticlexicon.txt" />
+    <Content Include="copticstring.txt" />
+    <Content Include="copticstring3.txt" />
+    <Content Include="corncodex.txt" />
+    <Content Include="czechcodex.txt" />
+    <Content Include="debrecencodex.txt" />
+    <Content Include="diittonghiorigsuff.txt" />
+    <Content Include="diphtongsuffix.txt" />
+    <Content Include="dittonghibohem.txt" />
+    <Content Include="dittonghifrequency.txt" />
+    <Content Include="dittonghifrequencybackscriptiocontinua2.txt" />
+    <Content Include="dittonghifrequencybibliahuszitacleancon.txt" />
+    <Content Include="dittonghifrequencybohemian2.txt" />
+    <Content Include="dittonghifrequencybohemian3.txt" />
+    <Content Include="dittonghifrequencygrbig.txt" />
+    <Content Include="dittonghifrequencygrsmallest1.txt" />
+    <Content Include="dittonghifrequencygrsmallest2.txt" />
+    <Content Include="dittonghifrequencygrsmallest3.txt" />
+    <Content Include="dittonghifrequencygrsmallest4.txt" />
+    <Content Include="dittonghifrequencykralicac.txt" />
+    <Content Include="dittonghifrequencylatinnospacesbig1.txt" />
+    <Content Include="dittonghifrequencylatinnospacesbig2.txt" />
+    <Content Include="dittonghifrequencylatinnospacesbig3.txt" />
+    <Content Include="dittonghifrequencylatinnospacessmall1.txt" />
+    <Content Include="dittonghifrequencylatinnospacessmall2.txt" />
+    <Content Include="dittonghifrequencylatinnospacessmall3.txt" />
+    <Content Include="dittonghifrequencylatsmallest1.txt" />
+    <Content Include="dittonghifrequencylatsmallest2.txt" />
+    <Content Include="dittonghifrequencylatsmallest3.txt" />
+    <Content Include="dittonghifrequencylatsmallest4.txt" />
+    <Content Include="dittonghifrequencymagyar2.txt" />
+    <Content Include="dittonghifrequencymagyarc.txt" />
+    <Content Include="dittonghifrequencymagyarcleancon.txt" />
+    <Content Include="dittonghifrequencyoldlux3.txt" />
+    <Content Include="dittonghifrequencyoldluxc.txt" />
+    <Content Include="dittonghifrequencyscriptiocontinua2.txt" />
+    <Content Include="dittonghifrequencyscriptiocontinuanoq.txt" />
+    <Content Include="dittonghigre.txt" />
+    <Content Include="dittonghihng.txt" />
+    <Content Include="dittonghilat.txt" />
+    <Content Include="dittonghiorigpos.txt" />
+    <Content Include="dittonghiorigpref.txt" />
+    <Content Include="dobrenteicodex.txt" />
+    <Content Include="domonokoskodex.txt" />
+    <Content Include="egr.txt" />
+    <Content Include="egra.txt" />
+    <Content Include="egra1.txt" />
+    <Content Include="egra2.txt" />
+    <Content Include="egra3.txt" />
+    <Content Include="egrax.txt" />
+    <Content Include="egrdic.txt" />
+    <Content Include="egrdic.txtlat.txt" />
+    <Content Include="egrgr.txt" />
+    <Content Include="egrgr.txtlat.txt" />
+    <Content Include="egrsc.txt" />
+    <Content Include="egrsclat.txt" />
+    <Content Include="egrtemp.txt" />
+    <Content Include="elatgr.txt" />
+    <Content Include="erdycodex.txt" />
+    <Content Include="greekcorpus.txt" />
+    <Content Include="gregoriipapaxiii.txt" />
+    <Content Include="grsmallest1.txt" />
+    <Content Include="grsmallest2.txt" />
+    <Content Include="grsmallest3.txt" />
+    <Content Include="grsmallest4.txt" />
+    <Content Include="IOCcorpussmall.txt" />
+    <Content Include="IOCcorpuswords.txt" />
+    <Content Include="könyvecse.txt" />
+    <Content Include="latincorpus.txt" />
+    <Content Include="latincorpus2.txt" />
+    <Content Include="latindic.txt" />
+    <Content Include="latinnospacesbig1.txt" />
+    <Content Include="latinnospacesbig2.txt" />
+    <Content Include="latinnospacesbig3.txt" />
+    <Content Include="latinnospacessmall1.txt" />
+    <Content Include="latinnospacessmall2.txt" />
+    <Content Include="latinnospacessmall3.txt" />
+    <Content Include="magyar2.txt" />
+    <Content Include="magyarc.txt" />
+    <Content Include="magyarcleancon.txt" />
+    <Content Include="magyarcleanconsmall.txt" />
+    <Content Include="MarTor.txt" />
+    <Content Include="MiskTor.txt" />
+    <Content Include="moderncoptic.txt" />
+    <Content Include="oldhungarian.txt" />
+    <Content Include="oldhungarianfuneralsermon.txt" />
+    <Content Include="oldhungarianlamentationofmary.txt" />
+    <Content Include="oldlux.txt" />
+    <Content Include="oldlux0.txt" />
+    <Content Include="oldlux2.txt" />
+    <Content Include="oldlux3.txt" />
+    <Content Include="oldluxc.txt" />
+    <Content Include="passwordcopticbible.txt" />
+    <Content Include="passwordlatinnospacesbig1.txt" />
+    <Content Include="passwordlatinnospacesbig2.txt" />
+    <Content Include="passwordlatinnospacesbig3.txt" />
+    <Content Include="passwordmagyarc.txt" />
+    <Content Include="passwordmagyarcleancon.txt" />
+    <Content Include="passwordoldlux3.txt" />
+    <Content Include="PiryH.txt" />
+    <Content Include="proverbs.txt" />
+    <Content Include="randomtext.txt" />
+    <Content Include="randomtext2.txt" />
+    <Content Include="scrcontaporcodex.txt" />
+    <Content Include="scrcontBecsiK_4.txt" />
+    <Content Include="scrcontbirkcodex.txt" />
+    <Content Include="scrcontbodcodex.txt" />
+    <Content Include="scrcontchristinalegend.txt" />
+    <Content Include="scrcontcorncodex.txt" />
+    <Content Include="scrcontczechcodex.txt" />
+    <Content Include="scrcontdebrecencodex.txt" />
+    <Content Include="scrcontdobrenteicodex.txt" />
+    <Content Include="scrcontdomonokoskodex.txt" />
+    <Content Include="scrconterdycodex.txt" />
+    <Content Include="scriptiocontinua.txt" />
+    <Content Include="scriptiocontinua2.txt" />
+    <Content Include="scriptiocontinua3.txt" />
+    <Content Include="scriptiocontinuanoq.txt" />
+    <Content Include="SimorK.txt" />
+    <Content Include="stringanospaces.txt" />
+    <Content Include="stringaoriginale.txt" />
+    <Content Include="stringaoriginale2.txt" />
+    <Content Include="stringaoriginalebohemian.txt" />
+    <Content Include="stringaoriginalebohemiannospaces.txt" />
+    <Content Include="stringaoriginalevowels.txt" />
+    <Content Include="stringaospace.txt" />
+    <Content Include="strippedbibliahuszitacleancon.txt" />
+    <Content Include="strippedoldhungarian.txt" />
+    <Content Include="strippedpasswordmagyarcleancon.txt" />
+    <Content Include="testIOC.txt" />
+    <Content Include="trittonghifrequencybackmagyarc.txt" />
+    <Content Include="trittonghifrequencybackscriptiocontinua2.txt" />
+    <Content Include="trittonghifrequencybibliahuszitacleancon.txt" />
+    <Content Include="trittonghifrequencygrsmallest1.txt" />
+    <Content Include="trittonghifrequencygrsmallest2.txt" />
+    <Content Include="trittonghifrequencygrsmallest3.txt" />
+    <Content Include="trittonghifrequencygrsmallest4.txt" />
+    <Content Include="trittonghifrequencylatinnospacesbig1.txt" />
+    <Content Include="trittonghifrequencylatinnospacessmall1.txt" />
+    <Content Include="trittonghifrequencylatinnospacessmall2.txt" />
+    <Content Include="trittonghifrequencylatinnospacessmall3.txt" />
+    <Content Include="trittonghifrequencymagyarc.txt" />
+    <Content Include="trittonghifrequencymagyarcleancon.txt" />
+    <Content Include="trittonghifrequencyscriptiocontinua.txt" />
+    <Content Include="trittonghifrequencyscriptiocontinua2.txt" />
+    <Content Include="trittonghigre.txt" />
+    <Content Include="trittonghilat.txt" />
+    <Content Include="trittonghiorig.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

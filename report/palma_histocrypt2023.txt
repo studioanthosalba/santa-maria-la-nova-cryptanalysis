@@ -1,0 +1,721 @@
+Encrypted epigraphy - the case of a mysterious inscription in the
+Neapolitan church of Santa Maria La Nova
+Cosimo Palma
+University of Naples ”L’Orientale” / Via Duomo, 219, 80139 Napoli, Italy
+University of Pisa / Lungarno Antonio Pacinotti, 43, 56126 Pisa, Italy
+cosimo.palma@phd.unipi.it
+Abstract
+This paper contains all steps regarded as
+necessary and relevant towards the decryp-
+tion of the epigraph placed in the “Tur-
+bolo Chapel” of the Neapolitan Church of
+Santa Maria La Nova. The inscription has
+been processed by means of Python- writ-
+ten procedures in combination with the de-
+cryption software AZdecrypt , thus display-
+ing linguistic features converging unequiv-
+ocally to the hypothesis that its clear-text
+be encrypted by monoalphabetic substi-
+tution from a natural language, possibly
+alongside with transposition and polyal-
+phabetism. A preliminary analysis on
+characters n-grams and vocals-consonants
+combinations has not succeeded yet in in-
+dividuating any clear-text language among
+all the analysed corpora.
+1 Introduction
+Inside the Turbolo Chapel of Santa Maria la Nova
+(Naples, Italy) two epigraphs are to be found. The
+one on the observer’s left side contains an indul-
+gence statement from Pope Gregory XIII related
+to holy masses celebrated therein, in dedication
+to Miss Turbolo, the noblewoman Giovanna De
+Rosa. On the right side is placed an epigraph writ-
+ten in an unknown alphabet1. This immediately
+recognizable feature does not let us understand
+that we behold an encrypted text yet: as it often
+happens in these cases, the only decisive proof that
+we are coping with an encryption would be ﬁnd-
+ing out its decryption, or at least any other external
+1The inscription is constituted by approximately six hun-
+dred glyphs, against the one thousand seven hundred ﬁfty
+of the papal indulgence. Beside the obvious space reasons,
+the insertion of the whole photography would have been su-
+perﬂuous because of the many deletions and erosions mostly
+present on the top and bottom areas. Refer to section ”His-
+torical alphabets and coeval codes review” for further details.
+Figure 1: A snapshot of the encrypted epigraph
+of the Turbolo Chapel in the Neapolitan Church
+of Santa Maria La Nova (courtesy of the cultural
+association ”Oltre il chiostro”, leader manager of
+the monumental complex).
+element which could let us pointing at it as such
+without further doubts.
+2 Related Work
+In few sparse newspaper articles, it emerges that
+serious attempts at decryption have been indeed
+undertaken, although related scientiﬁc publica-
+tions seem impossible to ﬁnd. The only two pub-
+lished works explicitly mentioning the inscription
+of the Turbolo chapel are either focused on the
+the artistic and architectural features of the whole
+church (Rocco, 1928), or on a speciﬁc set of his-
+torical events and aristocratic genealogy displayed
+in order to ascertain the reliability of the theory,
+according to which in the tomb placed outside, on
+the other side of the very same epigraph’s wall,
+the count Vlad III of Wallachia (popularly know
+as Dracula) be buried (Miriello, 2021).
+In the former work, the cultivated and generally
+esteemed author assesses that the inscription is the
+Greek translation of the adjacent Latin inscription
+(and yet, even a profane would easily acknowledge
+that the ﬁrst epigraph is too long, compared to the
+second, which in turns displays many glyphs obvi-
+ously not belonging to the common Greek alpha-
+bet). In the latter, three conjectures about the in-
+scription’s origins are brought forth, among which
+I report only the most relevant one: the inscrip-
+tion shall be nothing else than a table used by the
+Franciscan monks for didactic purposes.
+The church was considered in fact, at the end
+of the XVI. century, as one of the most ﬂour-
+ishing university poles in Southern Italy where,
+among others, also oriental languages and cal-
+ligraphy were taught. The same author reports
+that a radiocarbon-dating performed on the epi-
+graph places it at around the XVI-XVII century
+and that a preliminary attempt for decryption,
+consisting in substituting each glyph by probable
+phonemes related to similar glyphs in other alpha-
+bets, has lead to no satisfactory results. It is not
+unusual to ﬁnd mysterious inscriptions in western
+as well as eastern churches, although in these cases
+they are mostly present in the form of tetragrams
+(Moutafov, 2006), a text-length which cannot be
+compared to the one analysed in this seat.
+Another article (almost homonym to the present
+one) ﬁrst formulates the epistemological conun-
+drum of an encrypted object situated in plain sight
+(Rosenmeyer, 2019). According to the author, the
+magical or mystic power attributed to the letters of
+the alphabet within oriental and Egyptian culture
+explains the use of acrostics in religious contexts
+in Egypt. Furthermore, she states that the encoder
+may want to tease the observer with a riddle, as
+an intellectual game, and not with the real pur-
+pose to conceal a message. A further scenario,
+as subtle as important, is the case where some-
+thing is by law or enforcement compelled to be
+written, implicitly assuming its understandability,
+without expressing it, thus opening the possibil-
+ity for the reluctant engraver to perform a sort of
+Isolt’s oath, whereby the requirement is fulﬁlled
+in its form, but not in its substance. Rosenmeyer’s
+study bears also the merit for describing a rare en-
+cryption method, based on the art of isopsephy .
+As in the rabbinic gematria , it associates to ev-
+ery letter of the Greek alphabet a numerical value,
+ranging from 1 to 900. By the most common en-
+cryption strategy, every sign translates in the oneresulting from the difference between the numeral
+order immediately superior, and the numeric value
+itself. For instance, if Yequals to 700, it shall be
+read as 1000 minus 700, hence 300, the value of
+the letter t. In accordance to this calculation, all
+glyphs corresponding to numbers with a 5, such as
+50 and 500, do not change. Despite its interesting-
+ness, I have regarded the inclusion of this approach
+to the present paper not relevant, since it still falls
+under the umbrella of a monoalphabetic substitu-
+tion, which could be eventually easily investigated
+to assess whether it has been applied by following
+isopsephic principles.
+3 Problem Statement
+Plenty of superﬁcial observations, such as the
+amount of different characters, in the same range
+of standard alphabets, are sufﬁcient to assume that
+the epigraph is most likely the encryption of a text
+written in a natural language. However, the fact it-
+self that the artefact is located in plain sight, allows
+us to imagine that whatever information contained
+therein must not be exceptionally secret, and is re-
+quired to be unlocked by a group of people pos-
+sessing the suitable key or a sufﬁcient amount of
+time. The dense conglomerate of history and mys-
+tery the epigraph is entangled with induces ﬁrst at
+taking a step back and deciding from which an-
+gle the decryption shall be approached. The very
+same is undoubtedly, at the same time, a source of
+motivation for undertaking this challenge.
+4 Methodology
+Because of the abundant literature available for the
+historical aspect, and of the lack of a serious quan-
+titative analysis of the object, I decided to focus
+only on the tasks strictly related to decryption, in
+the hope that my leads, once joined with the oth-
+ers from different domains, could ﬁnally bring to
+a holistic solution of the puzzle. The major steps I
+undertook to attempt the epigraph decryption are:
+• Review of historical alphabets and coeval
+codes;
+• Statistical analysis on single characters;
+–Candidate-languages corpora harvesting
+and pre-processing;
+–Transposition of the inscription’s glyphs
+into Latin characters;
+–Preliminary analysis on vowels-
+consonants intertwining;
+–Index of Coincidence calculation for
+text-snippets extracted from each cor-
+pus;
+–Shannon Information Entropy calcula-
+tion for text-snippets extracted from
+each corpus;
+–Friedman’s test calculation for every
+candidate language;
+• Statistical analysis on N-grams;
+–Generation of a N-grams ﬁle suitable for
+theAZdecrypt software;
+–Creation of a ”.ini” ﬁle for initialization
+of the software calculation;
+–Copying the main epigraph’s transliter-
+ation into the software’s input window;
+–Running the solver for every relevant
+decryption mode;
+–Output ﬁles storage and analysis.
+In the following, only the non-trivial steps
+among the above listed ones will be described in
+deeper detail.
+5 Review of historical alphabets and
+coeval codes
+Before diving into the canonical decryption pro-
+cedure, for which I followed the path laid down in
+(Knight et al., 2011; Hauer and Kondrak, 2016) on
+the basis of (Pommerening, 2021), I ﬁrst pursued
+a review of all existing alphabets, which substan-
+tially conﬁrmed the already mentioned range of
+alphabets participating in the epigraph’s composi-
+tion, such as old Slavonic, Greek, Latin and Coptic
+(Miriello, 2021). In addition to those, the Carian
+alphabet2was found to be the alphabet which, sin-
+gularly, contains the highest amount of the inscrip-
+tion glyphs.
+Not only existing alphabets, but also invented
+ones have been taken in duly consideration3,
+as listed in (King, 2001; Della Porta, 1563;
+Trithemius, 1518; Somogyi, 1906; Sch ¨oning,
+2014; Meister, 1902; Kranz and Oberschelp, 2009;
+2Carian is an extinct language spoken until the ﬁrst cen-
+tury B.C. in Caria, a region of western Anatolia, and in Egypt
+(Adeigo, 2006).
+3The two most remarkable examples, are the Lingua
+Chaldeorum of Rudolph IV Duke of Austria, and the Lin-
+gua Ignota of Saint Hildegard of Bingen. to which even a
+glossary of more than one thousand words is linked.
+Figure 2: A diachronic display of Carian alpha-
+bets. Glyphs resembling the epigraph’s ones are
+red-circled.
+Rous and Mulsow, 2015). The quoted works also
+contain the state of the art of XVI century cryp-
+tology, which at the time was still in its dawn.
+If the inscription’s radio-carbon dating were to
+be considered reliable (which is highly probable,
+since it matches the dates engraved on the Tur-
+bolo’s tomb), the hypothesis for polyalphabetic or
+homophonic substitution ciphers cannot be safely
+discarded yet (see section ”Statistical Analysis on
+single characters” for an empirical assessment of
+this question), because they ﬁrst originated exactly
+in those years (Della Porta, 1563; Trithemius,
+1518). The survey in this domain can be regarded
+as accomplished only if yet another set of sym-
+bols is taken in consideration, namely those which
+could be mapped to concepts, instead of usual al-
+phabet characters, as in the case of alchemical
+signs4.
+Despite the remarkable similarity with some of
+the symbols occurring in the epigraph, an unam-
+biguous way to match them with single charac-
+ters could not be found. For instance, taking only
+4The combination alchemy-cryptology characterises most
+of the Middle Ages- and Renaissance occultism.
+Figure 3: Table of alchemical symbols taken
+from ”The last will and testament of Basil Valen-
+tine, monke of the Order of St. Bennet” (1671).
+Symbols resembling the epigraph’s ones are red-
+circled. Source: Wikimedia .
+the initial letter of the represented element, would
+result in a heavy homophony, which once practi-
+cally transposed would yield no meaningful word
+or sentence.
+6 Statistical analysis on single characters
+The epigraph clearly underwent major deletions,
+mostly in the lower part: the entirety of text at our
+disposal is therefore not suited for a satisfactory
+statistical analysis, which usually delivers best re-
+sults when performed over larger samples. How-
+ever, the preliminary manual attack have been un-
+successful, thus leading to a computer-aided one5.
+The ﬁrst step towards the decryption was to es-
+tablish an arbitrary letter-glyph mapping in order
+5The project’s repository can be accessed at
+https://github.com/Glottocrisio/MariaLaNova .
+Figure 4: Mapping between Latin and epigraph’s
+glyphs.
+to produce a machine-readable document. After-
+wards, a handful of candidate languages have been
+selected according to various factors, such as their
+prestige at the period to which the inscription itself
+belongs, as well as their diversity6, and harvested
+online, mostly through the online corpus database
+HistCorp (HistCorp, 2023)7.
+6.1 Index of Coincidence
+The uncertainty drawn by these preliminary obser-
+vations has induced the necessity of a statistical
+analysis. The related literature reports about dif-
+ferent methods for clear-text language assessment
+for an encrypted text, among which the Index of
+Coincidence and the Shannon’s Information En-
+tropy represent the most known and efﬁcient ones.
+The Index of Coincidence (IC) is a measure which
+reﬂects the probability in a given text that two ran-
+domly selected letters coincide. It is used in cryp-
+tology for the identiﬁcation of the clear-text lan-
+guage, since every language has a relatively con-
+stant IC. In the equation of the IC, Nrepresents
+6Considering different linguistic families knowingly ac-
+celerates the process of the clear-text language identiﬁcation.
+7The corpus for Old Luxemburgish has been obtained
+manually, by scanning a copy of the Codex Mariendalensis ,
+a manuscript from the beginning of the XIV century about
+the life of Yolanda of Vianden consisting of 5,963 lines of
+rhyming couplets in the Moselle-Franconian German dialect.
+Figure 5: A synoptic view of character frequency
+distribution for all candidate languages, performed
+on random snippets with similar length to the in-
+scription’s one, extracted by related corpora.
+the length of the text, and n1through ncare the
+frequencies (as integers) of the cletters of the al-
+phabet.
+Nonetheless, it shall be considered, as observ-
+able from the adjacent epigraph as well, that the
+writing style and conventions for epigraphs is very
+different from the normal ones: the suppression of
+all doubles, as well as the use of abbreviations, au-
+tomatically result in a lower IC. On the other side,
+thescriptio continua8enhances the same proba-
+bility, since the ﬁnal letter of a word can match
+the initial letter of the following ones. In order to
+parametrize these discrepancies in the IC equation,
+it would be needed to analyse these changes on a
+larger corpus of epigraphs, written in both styles,
+a task which is not necessary to undertake for
+this work. The IC has been automatically calcu-
+8From Latin, literally: continuous writing, i.e. space be-
+tween words is omitted. This writing style is typical of Greek
+epigraphy as well.lated by means of the project’s ”getIOC” function,
+which implements the above mentioned mathe-
+matical formula.
+Candidate language IC
+Inscription 1.72
+Random text 1.03
+Magyar (Old Hungarian) 1.61
+Old Luxemburgish 1.87
+Old Romanian 1.71
+Magyar (Old Hungarian) 2 1.75
+Coptic 1.87
+Koin ´e Greek 1.88
+Latin 1.94
+Old Albanian 1.73
+Old Slovenian 1.52
+Old Spanish 1.81
+Old Italian 1.53
+Old German 1.95
+Old Czech 1.30
+Table 1: Normalized Index of Coincidence values
+for every candidate language.
+6.2 Other statistical tests
+Another measure through which a whole language
+can be captured is the Shannon Information En-
+tropy (SIE), deﬁned as follows (Shannon, 1951):
+H(x) = n
+å
+i=1p(xi)log2p(xi):
+The formula calculates the average level of in-
+formation , inherent to the variable’s possible out-
+comes (in our case, the characters), whereby a
+more informative outcome is intended to be the
+less expected one.
+Other methods for the assessment of the clear-
+text language are statistical similarity tests, such as
+thec2, the Kolmogorov-Smirnov or the Kullback-
+Leibler divergence tests, conceived to measure
+how similar two samples are, i.e. how probable
+it is that the they are generated by the same distri-
+bution function. Once again, the limited length of
+the inscription does not allow to take this method
+in serious consideration. Condition for the com-
+parison is that the samples, algorithmically ren-
+dered as two vectors or arrays, be of the same
+length. Moreover, their values shall be normal-
+ized, since the character frequency distributions
+Candidate language SIE
+Inscription 4.1
+Random text 4.7
+Magyar (Old Hungarian) 4.1
+Old Luxemburgish 4.2
+Old Romanian 4.3
+Coptic 4.2
+Koin ´e Greek 5.0
+Latin 4.1
+Old Czech 4.3
+Old Albanian 4.4
+Old Slovenian 4.4
+Old Spanish 4.2
+Old Italian 4.2
+Old German 4.1
+Table 2: Shannon Information Entropy-value for
+every candidate language.
+may be originated from corpora of different size9.
+After proceeding with the visualization of the let-
+ter frequency distribution for every candidate lan-
+guage, a Friedman’s Test has been performed by
+means of the CrypTool software (CrypTool, 2023)
+to assess the probability of monoalphabetic substi-
+tution, which as expected yielded the same result
+for every language (except for English, where a
+slight possibility for homophony is still contem-
+plated). It has to be highlighted that homophonic
+ciphers usually display more than twenty-four let-
+ters, while polyalphabetism evens out characters
+frequency towards distributions typical of random
+texts. Magyar, Old Albanian and Old Romanian
+are the languages whose IC more resemble the in-
+scription’s.
+The same calculation performed over text sam-
+ples of different length, for any language, shows
+that the IC may vary even signiﬁcantly, which
+compels us to consider this result as an indica-
+tion, more than a prediction. The most impor-
+tant takeaway of this kind of analysis is that a ran-
+domly generated text shows a completely different
+value. The same point can not be made for the SIE,
+whereby the value related to the Greek language
+results even higher than a random text. More-
+over, the lack of signiﬁcant discrepancies among
+the entropy values suggests that this kind of mea-
+sure, at least in our case, can not be effectively
+9The procedures yielding these statistical tests’ results
+are to be found in the project MariaLaNova , under the ﬁle
+”Graphs.py”.exploited alone in discerning between randomness
+and meaningfulness of a clear-text language.
+7 Statistical analysis on N-grams: a brief
+excursus on the AZdecrypt software
+The cryptologic attack based on N-grams was
+supported by AZdecrypt (AZdecrypt, 2023), the
+same software used to decrypt the famed Zodiac
+cypher10. Although it is not the most user-friendly
+and advanced software at disposal in terms of sup-
+porting community and releases periodicity, it is
+extremely ﬂexible to incorporate new corpora.
+AZdecrypt is conceived for modern crypt-
+analysis, especially for homophone ciphers,
+nevertheless it is easily adaptable to historical
+ciphers11. The n-grams vocabularies included
+in AZdecrypt are formatted in binary, yet it is
+possible to include them through a textual ﬁle.
+In the project MariaLaNova the function which
+generates a N-grams ﬁle suitable to be processed
+byAZdecrypt can be run by the command:
+ngramsAZ(ﬁle, 5, case = ”lower”)
+, whereby the ﬁrst parameter is a corpus, the
+second one the desired N, and the third, optional,
+for rendering the output in lower- or uppercase.
+The output ﬁle will enlist each N-gram immedi-
+ately followed by its log value, a number between
+0 and 255 obtained by:
+log10(ngram f requency corpus )10
+All N-grams followed by ”000” could be re-
+moved. The GUI library used for AZdecrypt
+does not support Unicode. Hence, only languages
+that can be represented in ASCII are visually
+supported. A workaround for this problem is
+substituting Unicode with ASCII and then pro-
+viding a ASCII to Unicode mapping table in the
+n-gram .iniﬁle. The .iniformat is used for simple
+text ﬁles containing initialization parameters. In
+AZdecrypt , it accompains in the ”Ngrams” folder
+every N-gram ﬁle. Its appearance for Persian, a
+language not supported by Unicode, is:
+10https://www.iﬂscience.com/fbi-conﬁrms-zodiac-killers-
+infamous-340-cipher-has-been-decoded-and-his-message-
+ﬁnally-revealed-62044 .
+11The repository containing all the outputs, sorted
+by language and decryption mode can be accessed at
+https://github.com/Glottocrisio/AZDecryptMariaLaNova .
+Figure 6: The AZdecrypt ”Languages” function.
+N-gram size=b5
+N-gram factor=90.11
+Entropy weight=1
+Alphabet=#<*)576%4$
+,3:-+?1;0(2&"!8'/.>9=
+Temperature=700
+, whereby in the ﬁrst line the ”b” stands for ”bi-
+nary”12. It should be deleted for all non-binary
+formatted N-grams ﬁles. The alphabet line shall
+contain all characters present in the related N-
+grams ﬁle. The temperature variable refers to
+the probability of accepting a modiﬁcation with a
+lower ﬁtness. It continuously decreases, emulating
+the process of annealing in metallurgy, therefore
+the name.
+The strategy adopted in my study to avoid un-
+supported characters is transposing the corpus into
+Latin characters before generating the N-grams
+ﬁle. This is achieved by the functions contained
+into the ﬁle ”Replace.py”, and at the state of the
+art are available for Greek, Coptic and Cyrillic.
+Other alphabets can be mapped easily following
+the same model used for the other ”Replace” func-
+tions.
+Before attempting at the decryption via all
+modes available in the software sound protocol
+expects to use the function ”Languages” to deter-
+mine which in which clear-text language a given
+input cipher could be by selecting ”File”, then
+”Batch n-grams (substitution)”, and by opening
+”Languages.azd” under ”Languages”. Neverthe-
+less, it has been my previous statistical analy-
+sis to suggest me which languages should have
+been prioritized in my software-supported attack,
+namely Latin, Hungarian, Czech, Romanian, Al-
+banian and Church Slavonic.
+By clicking on ”File” then ”Load N-grams” the
+12For a binary 4-gram ﬁle, for example, the ﬁrst byte would
+represent the 0 to 255 (log) value of the AAAA n-gram, the
+second byte would be AAAB... etc. up to ZZZZ. All possible
+n-grams have to be included in this order.
+Figure 7: A typical view of AZdecrypt’s working
+environment .
+folder with all N-grams is accessed. Before run-
+ning the decryption in one of the modes selected
+in the list above13, on the window’s right side the
+”.ini” ﬁle content, as well as statistical observa-
+tions on the uploaded N-grams ﬁle are displayed.
+The N-grams analysis has embraced also an ex-
+periment, for which the software was not required.
+Moving from the observation that all analysed
+languages display all their vowels within their
+ﬁrst eight letters ranked over frequency, a vocals-
+consonants intertwining can be investigated even
+if we are still unaware of the clear-text. By replac-
+ing in the epigraph all possible vowels (all ﬁrst
+eight ranked glyphs) with a V, we can observe if
+the behaviour of possible vowels with consonants
+reﬂects the one of the other languages. This ex-
+periment is based on the assumption that while
+not all Vs are surely vowels, all not- Vs are con-
+sonants needs. After performing this operation,
+plenty of all-consonants 3-, -4 and 5-grams are to
+be found. Usually, three consonants in sequence
+are already pretty seldom, ﬁve almost impossible,
+in almost any language, which would constitute
+a strong case either for transposition, or even for
+randomness.
+8 Results
+By following the above mentioned steps, plenty of
+text ﬁles have been generated for every considered
+plain-text language, currently still under examina-
+tion. Feeding Google Translate with some of the
+outputs’ snippets from Latin or Hungarian, we are
+faced with fascinating translations of outstanding
+coherence. In spite of this, they cannot be correct
+at the same time; furthermore, Google Translate
+13Among all, I have used only the functions for ”Substitu-
+tion”, ”Substitution + Nulls & Skips”, ”Substitution + simple
+transposition”, ”Substitution + sparse polyalphabetism”.
+showed to be extremely unreliable because mean-
+ingless words are therein often rendered with their
+most similar meaningful term, and translated ac-
+cordingly. This experience has let me understand
+that a real awareness of the candidate languages
+is an indispensable condition for consistent im-
+provements towards decryption. I have done my
+best with the languages I sufﬁciently know, such
+as Latin, Greek, Italian, Spanish and German, al-
+though even they cannot be conﬁdently sorted out
+from our quest. For all the other ones, it is un-
+avoidable gathering help from the scientiﬁc com-
+munity, because only a synergistic effort can ﬁ-
+nally break this centuries-lasting riddle.
+The statistical approach seems to fails at a ﬁrst
+attempt, but there are plenty of strategies which
+can still be taken in account. Besides transposition
+and substitution, there are indeed other gimmicks
+which could allow to the ciphertext to maintain its
+statistical features, as occuring in the seventh chal-
+lenge of Bellaso (Bellaso, 1553), where the char-
+acters frequency distribution resembles our in-
+scription’s, although it has been encrypted mainly
+by the method of scrumbled alphabets .
+9 Concluding remarks and future work
+Differently from other case studies, where the en-
+crypted text is usually far longer and cleaner, we
+have been put against a cryptological challenge for
+which probabilistic solving heuristics may not be
+enough, eliciting the need for semantics-aware de-
+cryption. Nevertheless, there are still some op-
+tions to be taken into consideration, still coher-
+ent with the monoalphabetic substitution, like the
+conjecture according to which the epigraph may
+be edited in more than one language. This path
+could by walked by creating many bilingual cor-
+pora, from which to extract the N-grams. Yet an-
+other possible scenario could be the absence of
+vowels, i.e. the inscription may contain only con-
+sonants.
+An option which cannot be explored realisti-
+cally is the use of steganography (Trithemius,
+1518): even in that case we would fall back in the
+great obstacle of the used esoteric glyphs, which
+is even more aggravated by the established prac-
+tice among coeval cryptographers to willingly in-
+sert mistakes or abbreviation in the clear text, in
+order to impede decryption. In case that insights
+from collateral elements, maybe discovered inside
+the church, will suggest that the inscription maycontain one or more words, the AZdecrypt func-
+tionSubstitution + Crib grid can be used to check
+whether in the epigraph be contained combination
+of glyphs allowing that very word. This way has
+been already tried with terms such as ”Holy Mary”
+and ”Jesus Christ”, translated into the main candi-
+date languages.
+A further idea which shall not be discarded, may
+be the creation of a corpus entirely constituted of
+magical/esoteric words, harvested from grimories,
+glossaries of conlangs such as Hildegard’s Lingua
+Ignota , magical papyri, gnostic libraries and other
+books about occultism and alchemy: if the alpha-
+bet was invented, no one forbids that also the re-
+lated vocabulary was.
+10 Acknowledgments
+This work has beneﬁted from the support of many
+scholars, providing me various suggestions and
+material for improvement. Therefore I thankfully
+acknowledge my supervisors Dr. Maria Pia Di
+Buono and Prof. Dr. Johanna Monti, as well as by
+Prof. Dr. Beata Megyesi and Dr. Carola Dahlke,
+for providing me precious critics related to the ﬁrst
+draft’s ﬂaws in structure and content;
+Dr. Richard Bean and Dr. Ivan Parisi, who
+have bestowed me valuable insights to substan-
+tially change the ﬁrst version of the paper, in par-
+ticular by shifting my attention to a more thorough
+statistical analysis;
+Francesco Pastore and Francesco Afro Di Falco,
+for having shared with me very interesting consid-
+erations regarding the possible sense of the epi-
+graph, particularly from historical and the esoteric
+standpoint;
+Prof. Dr. Giuseppe Reale, head of the as-
+sociation ”Oltre il Chiostro”, which manages the
+museum complex of Santa Maria La Nova, for
+presenting me very detailed descriptions of the
+church (in particular concerning the architectonic
+elements strictly related to the analysed artefact),
+for granting me free entrance in the museum as
+well as high quality digital pictures of the inscrip-
+tion;
+Dr. Jarl Van Eycke and David Oranchak have
+been very patient and generous in showing me the
+approach to integrate the AZdecrypt software with
+the multilingual historic corpus I needed for my
+inquiry.
+References
+I. J. Adeigo. 2006. The Carian Language . Brill.
+AZdecrypt. 2023. Azdecrypt. https://github.
+com/doranchak/azdecrypt . Accessed: 2022-11-
+30.
+G.B. Bellaso. 1553. Il vero modo di scrivere in cifra .
+CrypTool. 2023. Cryptool portal - cryptography for
+everybody. https://www.cryptool.org/de// .
+Accessed: 2022-11-30.
+G . B. Della Porta. 1563. De Furtivis Literarum Notis .
+B. Hauer and G. Kondrak. 2016. Decoding ana-
+grammed texts written in an unknown language and
+script. Transactions of the Association for Compu-
+tational Linguistics 4 , page 75–86.
+HistCorp. 2023. Histcorp-historical corpora. https:
+//cl.lingfil.uu.se/histcorp/index.html .
+Accessed: 2022-10-23.
+D. A. King. 2001. The Ciphers of the Monks: A For-
+gotten Number-notation of the Middle Ages . Franz
+Steiner Verlag, Wiesbaden.
+K. Knight, B. Megyesi, and C. Schaefer. 2011. The
+copiale cipher. In 4th Workshop on Building and Us-
+ing Comparable Corpora:Comparable Corpora and
+the Web BUCC , pages 12–19.
+H. Kranz and W. Oberschelp. 2009. Mechanisches
+Memorieren und Chiffrieren um 1430, Johannes
+Fontanas ”Tractatus de instrumentis artis memo-
+rie”. Boethius Band 59. Franz Steiner Verlag.
+A. Meister. 1902. Die Anf ¨ange der moderne diploma-
+tische Geheimschriften- Beitr ¨age zur Geschichte der
+italienischen kryptographie des XV Jahrhunderts .
+L. Miriello. 2021. Sulla presunta tomba di Dracula a
+Napoli . I Polifemi. Stamperia del Valentino.
+E. Moutafov. 2006. Translating encrypted messages:
+greek and slavonic tetragrams as a mixture of lan-
+guages or as a universal code.
+K. Pommerening. 2021. Cryptology Part I: Classic
+Ciphers (Mathematical Version) .
+G. Rocco. 1928. Il convento e la chiesa di Santa Maria
+La Nova . Tipograﬁa Pontiﬁcia degli Artigianelli,
+Napoli.
+Patricia A. Rosenmeyer, 2019. Encrypted Inscriptions:
+a Paradoxical Practice , pages 373–392. Brill.
+Anne-Simone (Ed.) Rous and Martin (Ed.) Mul-
+sow. 2015. Geheime Post-Kryptologie und
+Steganographie der diplomatischen Korrespondenz
+europ ¨aischer H ¨ofe w ¨ahrend der Fr ¨uhen Neuzeit ,
+volume 106 of Historische Forschungen (HF) .
+Duncker & Humblot, Berlin.F. Sch ¨oning. 2014. Geheimschrift im deinste der
+p¨apstlichen Kurie von ihren Anf ¨angen bis zum Ende
+des XVI Jahrhunderts . Nabu Press.
+C. E. Shannon. 1951. Prediction and entropy of
+printed english. Bell System Technical Journal ,
+30(1):50–64.
+J.W. Somogyi, 1906. Caratteristiche strutturali di
+cifrari monoalfabetici italiani nei secoli XIV e XV ,
+pages 195–213.
+J. Trithemius. 1518. Polygraphiae libri sex .
+11 Appendix
+List of relevant functions from MariaLaNova
+Freqvoc : this function takes a ”.txt” ﬁle as input
+and returns a frequency dictionary of the words
+contained therein.
+letterngramsﬁlerank : this function generates
+a n-grams ﬁle of a given input ﬁle ranked by fre-
+quency.
+generateioccorpus : the input corpus of
+”ngramsaz” is created by selecting ﬁles whose In-
+dex of Coincidence is most similar to the epi-
+graph’s one by means of this function.
+ngramsaz : this function takes a corpus as in-
+put (as the one generated in the previous func-
+tion) and generates a ”.txt” ﬁle containing the
+logarithmic values for all n-grams in the for-
+mat requested by azdecrypt (5-grams): ”ex-
+ampl123xampl009ample007”.
+patternsearch : this function loops through a
+particular word list seeking for a pattern. It takes
+the number of characters and the pattern as param-
+eters. ’k’ means consonant, ’y’ vowel and ’u’ all
+different letters.
+matchwordscrco : this function loops through a
+”.txt” ﬁle to ﬁnd a word matching with the input
+word as parameter i.e.: word =”polo” and ﬁle=”
+bebe; marmelade; mouse; poster; fata”, the result
+will be ”fata”. In this version, we assume that the
+script contains no space (see matchword other-
+wise).

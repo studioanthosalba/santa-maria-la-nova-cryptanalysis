@@ -1,0 +1,515 @@
+{
+ "cv": {
+  "gemini_full": {
+   "best_c3": 0.028119507908611598,
+   "best_set": [
+    "a",
+    "i",
+    "v",
+    "o",
+    "e"
+   ],
+   "median_c3": 0.6942003514938488,
+   "reference_best": 0.025131810193321617
+  },
+  "palma_A": {
+   "best_c3": 0.3047945205479452,
+   "best_set": [
+    "i",
+    "a",
+    "u",
+    "r",
+    "n"
+   ],
+   "median_c3": 0.7123287671232876,
+   "reference_best": 0.025
+  },
+  "palma_B": {
+   "best_c3": 0.16519174041297935,
+   "best_set": [
+    "ρ",
+    "α",
+    "ω",
+    "δ",
+    "λ"
+   ],
+   "median_c3": 0.6946902654867256,
+   "reference_best": 0.02525811209439528
+  }
+ },
+ "periodicity": {
+  "gemini_full": {
+   "best_k": 11,
+   "delta": 0.005309338420824372,
+   "null95": 0.008600116622932199,
+   "p": 0.3253493013972056
+  },
+  "palma_A": {
+   "best_k": 17,
+   "delta": 0.003702862116553407,
+   "null95": 0.0063190111036567215,
+   "p": 0.4351297405189621
+  },
+  "palma_B": {
+   "best_k": 11,
+   "delta": 0.0017225669817948486,
+   "null95": 0.005983886098394396,
+   "p": 0.9341317365269461
+  }
+ },
+ "permutation": {
+  "gemini_full": {
+   "bs_hi": 0.1284313968167529,
+   "bs_lo": 0.10549657788559123,
+   "friedman_p": 1.26420584607565e-182,
+   "ic": 0.11469343300576747,
+   "kappa": 0.07445222541512053,
+   "p": 1.0
+  },
+  "palma_A": {
+   "bs_hi": 0.06691930613971192,
+   "bs_lo": 0.05595746493103691,
+   "friedman_p": 4.900668955505411e-40,
+   "ic": 0.059534998472708475,
+   "kappa": 0.01864521579760884,
+   "p": 1.0
+  },
+  "palma_B": {
+   "bs_hi": 0.09122811030792626,
+   "bs_lo": 0.07490501213491763,
+   "friedman_p": 1.637317905597513e-110,
+   "ic": 0.08131484120033289,
+   "kappa": 0.03955642489125711,
+   "p": 1.0
+  }
+ },
+ "random_null": {},
+ "rankings": {
+  "gemini_full": {
+   "fingerprint": {
+    "H": 3.5495303195328836,
+    "IC": 0.11469343300576747,
+    "bi_rep": 0.8873239436619719,
+    "top1": 0.21441124780316345,
+    "tri_rep": 0.4585537918871252
+   },
+   "mean_abs_z": {
+    "Albanian": 3.4217907551334634,
+    "Croatian": 9.390121620615352,
+    "Czech (Bible Kralicka 1613)": 8.759459292803056,
+    "Czech (catechism)": 8.516701166719857,
+    "English (KJV)": 5.934155322121243,
+    "German (Schlachter)": 3.85692958978958,
+    "Greek (Brenton, translit.)": 4.011075475381629,
+    "Hungarian (Erdy codex, XV c.)": 3.0633524101114586,
+    "Hungarian (Karoli)": 3.9740499496197095,
+    "Italian (Dante)": 8.554659033762075,
+    "Italian (Riveduta)": 6.267846505808464,
+    "Latin (Vulgate)": 6.904701164315566,
+    "Latin (humanist corpus)": 10.185568390123617,
+    "Polish": 8.211230380511378,
+    "Romanian": 3.7023326194270667,
+    "Slovak": 10.708799836721722
+   },
+   "n": 569,
+   "z_by_stat": {
+    "Albanian": {
+     "H": -8.23,
+     "IC": 5.99,
+     "bi_rep": 0.2,
+     "top1": 1.22,
+     "tri_rep": -1.47
+    },
+    "Croatian": {
+     "H": -15.61,
+     "IC": 21.49,
+     "bi_rep": -0.04,
+     "top1": 9.59,
+     "tri_rep": 0.23
+    },
+    "Czech (Bible Kralicka 1613)": {
+     "H": -16.23,
+     "IC": 19.42,
+     "bi_rep": 0.99,
+     "top1": 6.82,
+     "tri_rep": -0.33
+    },
+    "Czech (catechism)": {
+     "H": -16.39,
+     "IC": 15.81,
+     "bi_rep": 1.61,
+     "top1": 8.53,
+     "tri_rep": -0.25
+    },
+    "English (KJV)": {
+     "H": -9.11,
+     "IC": 12.14,
+     "bi_rep": 0.34,
+     "top1": 6.36,
+     "tri_rep": -1.72
+    },
+    "German (Schlachter)": {
+     "H": -7.1,
+     "IC": 7.44,
+     "bi_rep": 0.2,
+     "top1": 2.75,
+     "tri_rep": -1.8
+    },
+    "Greek (Brenton, translit.)": {
+     "H": -5.75,
+     "IC": 7.23,
+     "bi_rep": 0.7,
+     "top1": 5.47,
+     "tri_rep": -0.92
+    },
+    "Hungarian (Erdy codex, XV c.)": {
+     "H": -5.88,
+     "IC": 6.26,
+     "bi_rep": 1.09,
+     "top1": 1.67,
+     "tri_rep": -0.42
+    },
+    "Hungarian (Karoli)": {
+     "H": -8.01,
+     "IC": 7.73,
+     "bi_rep": 0.14,
+     "top1": 2.68,
+     "tri_rep": -1.31
+    },
+    "Italian (Dante)": {
+     "H": -13.2,
+     "IC": 19.63,
+     "bi_rep": -1.88,
+     "top1": 7.55,
+     "tri_rep": 0.51
+    },
+    "Italian (Riveduta)": {
+     "H": -8.09,
+     "IC": 13.31,
+     "bi_rep": -2.78,
+     "top1": 5.46,
+     "tri_rep": -1.7
+    },
+    "Latin (Vulgate)": {
+     "H": -10.76,
+     "IC": 16.27,
+     "bi_rep": -0.01,
+     "top1": 6.91,
+     "tri_rep": -0.57
+    },
+    "Latin (humanist corpus)": {
+     "H": -13.28,
+     "IC": 22.44,
+     "bi_rep": 0.98,
+     "top1": 11.34,
+     "tri_rep": 2.89
+    },
+    "Polish": {
+     "H": -14.08,
+     "IC": 17.43,
+     "bi_rep": 0.79,
+     "top1": 7.91,
+     "tri_rep": -0.85
+    },
+    "Romanian": {
+     "H": -5.93,
+     "IC": 6.61,
+     "bi_rep": -1.75,
+     "top1": 2.58,
+     "tri_rep": -1.65
+    },
+    "Slovak": {
+     "H": -18.76,
+     "IC": 22.87,
+     "bi_rep": 1.89,
+     "top1": 8.8,
+     "tri_rep": 1.23
+    }
+   }
+  },
+  "palma_A": {
+   "fingerprint": {
+    "H": 4.268538111700459,
+    "IC": 0.059534998472708475,
+    "bi_rep": 0.7530017152658662,
+    "top1": 0.13013698630136986,
+    "tri_rep": 0.15463917525773196
+   },
+   "mean_abs_z": {
+    "Albanian": 4.51339122244101,
+    "Croatian": 4.725062564447147,
+    "Czech (Bible Kralicka 1613)": 2.6068234609734504,
+    "Czech (catechism)": 2.930628745929292,
+    "English (KJV)": 3.7463473523641126,
+    "German (Schlachter)": 4.525700952201836,
+    "Greek (Brenton, translit.)": 3.1842561918539145,
+    "Hungarian (Erdy codex, XV c.)": 4.886990990608241,
+    "Hungarian (Karoli)": 4.198600972050157,
+    "Italian (Dante)": 7.658089037136994,
+    "Italian (Riveduta)": 7.099585178515936,
+    "Latin (Vulgate)": 5.197022926620525,
+    "Latin (humanist corpus)": 6.669645972332522,
+    "Polish": 2.939073356744017,
+    "Romanian": 6.204406479730423,
+    "Slovak": 3.3056137486088013
+   },
+   "n": 584,
+   "z_by_stat": {
+    "Albanian": {
+     "H": 4.43,
+     "IC": -3.6,
+     "bi_rep": -6.25,
+     "top1": -2.87,
+     "tri_rep": -5.41
+    },
+    "Croatian": {
+     "H": 4.71,
+     "IC": -2.97,
+     "bi_rep": -9.97,
+     "top1": 1.05,
+     "tri_rep": -4.93
+    },
+    "Czech (Bible Kralicka 1613)": {
+     "H": 1.25,
+     "IC": 0.06,
+     "bi_rep": -6.55,
+     "top1": 1.0,
+     "tri_rep": -4.17
+    },
+    "Czech (catechism)": {
+     "H": 1.85,
+     "IC": -0.45,
+     "bi_rep": -6.32,
+     "top1": 1.39,
+     "tri_rep": -4.65
+    },
+    "English (KJV)": {
+     "H": 4.26,
+     "IC": -3.17,
+     "bi_rep": -5.7,
+     "top1": 0.12,
+     "tri_rep": -5.48
+    },
+    "German (Schlachter)": {
+     "H": 4.38,
+     "IC": -3.52,
+     "bi_rep": -6.49,
+     "top1": -2.18,
+     "tri_rep": -6.05
+    },
+    "Greek (Brenton, translit.)": {
+     "H": 3.92,
+     "IC": -2.97,
+     "bi_rep": -4.74,
+     "top1": -0.11,
+     "tri_rep": -4.19
+    },
+    "Hungarian (Erdy codex, XV c.)": {
+     "H": 4.09,
+     "IC": -3.8,
+     "bi_rep": -6.77,
+     "top1": -2.42,
+     "tri_rep": -7.36
+    },
+    "Hungarian (Karoli)": {
+     "H": 3.94,
+     "IC": -3.35,
+     "bi_rep": -6.66,
+     "top1": -1.71,
+     "tri_rep": -5.33
+    },
+    "Italian (Dante)": {
+     "H": 9.04,
+     "IC": -6.43,
+     "bi_rep": -14.38,
+     "top1": 0.13,
+     "tri_rep": -8.3
+    },
+    "Italian (Riveduta)": {
+     "H": 8.23,
+     "IC": -6.8,
+     "bi_rep": -13.63,
+     "top1": -0.64,
+     "tri_rep": -6.2
+    },
+    "Latin (Vulgate)": {
+     "H": 6.83,
+     "IC": -5.16,
+     "bi_rep": -8.53,
+     "top1": 0.23,
+     "tri_rep": -5.23
+    },
+    "Latin (humanist corpus)": {
+     "H": 8.68,
+     "IC": -6.34,
+     "bi_rep": -9.95,
+     "top1": 1.47,
+     "tri_rep": -6.91
+    },
+    "Polish": {
+     "H": 2.04,
+     "IC": -1.14,
+     "bi_rep": -5.78,
+     "top1": 1.18,
+     "tri_rep": -4.55
+    },
+    "Romanian": {
+     "H": 9.14,
+     "IC": -5.06,
+     "bi_rep": -9.89,
+     "top1": -1.43,
+     "tri_rep": -5.5
+    },
+    "Slovak": {
+     "H": 2.69,
+     "IC": -1.09,
+     "bi_rep": -6.67,
+     "top1": 1.09,
+     "tri_rep": -5.0
+    }
+   }
+  },
+  "palma_B": {
+   "fingerprint": {
+    "H": 3.9903313011507198,
+    "IC": 0.08131484120033289,
+    "bi_rep": 0.8197932053175776,
+    "top1": 0.1710914454277286,
+    "tri_rep": 0.27218934911242604
+   },
+   "mean_abs_z": {
+    "Albanian": 2.137784281584529,
+    "Croatian": 5.6233277449420696,
+    "Czech (Bible Kralicka 1613)": 5.219472668116177,
+    "Czech (catechism)": 4.834152830825234,
+    "English (KJV)": 3.2794638005511736,
+    "German (Schlachter)": 2.235378131778943,
+    "Greek (Brenton, translit.)": 2.080943222514614,
+    "Hungarian (Erdy codex, XV c.)": 2.217075570671183,
+    "Hungarian (Karoli)": 2.290192039706569,
+    "Italian (Dante)": 5.37157846787624,
+    "Italian (Riveduta)": 4.328067684476174,
+    "Latin (Vulgate)": 3.5960480419884897,
+    "Latin (humanist corpus)": 4.828612022910427,
+    "Polish": 4.649281016332449,
+    "Romanian": 3.380936752663473,
+    "Slovak": 5.575139500741728
+   },
+   "n": 678,
+   "z_by_stat": {
+    "Albanian": {
+     "H": -0.63,
+     "IC": 0.22,
+     "bi_rep": -4.35,
+     "top1": -0.91,
+     "tri_rep": -4.58
+    },
+    "Croatian": {
+     "H": -3.52,
+     "IC": 7.38,
+     "bi_rep": -7.59,
+     "top1": 5.79,
+     "tri_rep": -3.84
+    },
+    "Czech (Bible Kralicka 1613)": {
+     "H": -5.94,
+     "IC": 8.19,
+     "bi_rep": -4.65,
+     "top1": 4.08,
+     "tri_rep": -3.23
+    },
+    "Czech (catechism)": {
+     "H": -5.56,
+     "IC": 6.03,
+     "bi_rep": -4.06,
+     "top1": 5.1,
+     "tri_rep": -3.42
+    },
+    "English (KJV)": {
+     "H": -1.12,
+     "IC": 3.16,
+     "bi_rep": -4.09,
+     "top1": 3.33,
+     "tri_rep": -4.7
+    },
+    "German (Schlachter)": {
+     "H": -0.14,
+     "IC": 0.86,
+     "bi_rep": -4.76,
+     "top1": 0.23,
+     "tri_rep": -5.18
+    },
+    "Greek (Brenton, translit.)": {
+     "H": 0.09,
+     "IC": 1.17,
+     "bi_rep": -3.05,
+     "top1": 2.79,
+     "tri_rep": -3.31
+    },
+    "Hungarian (Erdy codex, XV c.)": {
+     "H": 0.13,
+     "IC": 0.24,
+     "bi_rep": -4.48,
+     "top1": -0.43,
+     "tri_rep": -5.8
+    },
+    "Hungarian (Karoli)": {
+     "H": -0.81,
+     "IC": 1.06,
+     "bi_rep": -4.79,
+     "top1": 0.47,
+     "tri_rep": -4.33
+    },
+    "Italian (Dante)": {
+     "H": 0.22,
+     "IC": 4.61,
+     "bi_rep": -11.21,
+     "top1": 4.19,
+     "tri_rep": -6.63
+    },
+    "Italian (Riveduta)": {
+     "H": 1.85,
+     "IC": 1.28,
+     "bi_rep": -10.83,
+     "top1": 2.55,
+     "tri_rep": -5.13
+    },
+    "Latin (Vulgate)": {
+     "H": -0.15,
+     "IC": 3.61,
+     "bi_rep": -6.47,
+     "top1": 3.67,
+     "tri_rep": -4.08
+    },
+    "Latin (humanist corpus)": {
+     "H": 0.04,
+     "IC": 5.38,
+     "bi_rep": -6.87,
+     "top1": 6.96,
+     "tri_rep": -4.89
+    },
+    "Polish": {
+     "H": -4.6,
+     "IC": 6.6,
+     "bi_rep": -3.94,
+     "top1": 4.59,
+     "tri_rep": -3.52
+    },
+    "Romanian": {
+     "H": 3.32,
+     "IC": -0.45,
+     "bi_rep": -7.87,
+     "top1": 0.55,
+     "tri_rep": -4.71
+    },
+    "Slovak": {
+     "H": -5.99,
+     "IC": 8.9,
+     "bi_rep": -4.34,
+     "top1": 5.16,
+     "tri_rep": -3.49
+    }
+   }
+  }
+ }
+}

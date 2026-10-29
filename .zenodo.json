@@ -1,0 +1,23 @@
+{
+  "title": "The Encrypted Epigraph of Santa Maria la Nova: Reproducible Cryptanalysis and Quantitative Falsification of the Vlad III Hypothesis",
+  "creators": [
+    {
+      "name": "Magazzù, Antonino",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "Complete computational pipeline, dataset, and reproducible research repository for the cryptanalytic and paleographic investigation of the late Renaissance encrypted epigraph in the Turbolo Chapel, Santa Maria la Nova (Naples, Italy). Includes full 7-phase deterministic Python scripts, alignment matrices, bootstrap calibrations, Bayesian generative noise modeling, and the complete IMRaD scientific manuscript in Italian and English.",
+  "keywords": [
+    "Historical Cryptology",
+    "Digital Epigraphy",
+    "Santa Maria la Nova",
+    "Vlad III",
+    "Dracula",
+    "Index of Coincidence",
+    "Reproducibility",
+    "Bayesian Cryptanalysis"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open"
+}

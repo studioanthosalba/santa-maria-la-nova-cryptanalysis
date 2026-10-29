@@ -1,0 +1,76 @@
+<<<<<<< HEAD
+	VdVV??VV?V
+	... ... ... dVp?????
+	... VdVVbkV.V
+	VVcblV VdVVbfV lVVcVbV
+	Vb... VVqVd VVg... gVV?Vgb
+	gVvVlVV?gfb?...fV gwVbVV
+	zVlfpf VVzVVqf bVwcVVg?   
+	VpVVfV vVV? Vf??g?wVgVV
+	VszVV VoVbV ?bVgVwV ocVbV
+	VpVfcqpVq lVVg qcVVVVVVV
+	VVsjpVV lcq fdVVVV o.q
+	pjVVgq fdVVVcVoqgV VVV
+	lVVdV. Vlcfsgx VVVsV
+	vVVVVqbf VlVoqV cVoVVV
+ 	VVd VVx jVg lVvV VVdVvVV
+	VqVVfVVVVslVvVVVVVc VVVV
+ 	vVlV VVVfVV sVxVVvVVV
+	VVVVcV?VV?ck VbjVV VVVdcsV
+	VVVlj VbVVVVVvVd VfsVVVl
+	slVVVVd VlVVVVd VVVfVjV
+	VsVVdV sVVb VV VcfcV VsqV
+	vlVVVV VVqx lVVcf sVlVV
+	VcVVf VbV VVpjV VfpVV
+	Vvdsl VVd?s Vgsc czVV
+	kVdV... kpVVsV
+ 	VVVV... oVb VVV
+	vdV... VVoVVV 
+ 	VVV. kpVfV V.V..VVVV
+	pVq vV..lk..VVjV
+	Vz...V s.. p.V.V VVVVb
+	VoVp... pVdqV
+	VbVoVb ..bV....VfpcVV
+	VcVV VfVVcV
+	VzV VVdVpv V...fVVV
+	VV VVV...VVVVVVv VVdVV
+	cVV sVoV oVVVVV
+=======
+	VdVV??VV?V
+	... ... ... dVp?????
+	... VdVVbkV.V
+	VVcblV VdVVbfV lVVcVbV
+	Vb... VVqVd VVg... gVV?Vgb
+	gVvVlVV?gfb?...fV gwVbVV
+	zVlfpf VVzVVqf bVwcVVg?   
+	VpVVfV vVV? Vf??g?wVgVV
+	VszVV VoVbV ?bVgVwV ocVbV
+	VpVfcqpVq lVVg qcVVVVVVV
+	VVsjpVV lcq fdVVVV o.q
+	pjVVgq fdVVVcVoqgV VVV
+	lVVdV. Vlcfsgx VVVsV
+	vVVVVqbf VlVoqV cVoVVV
+ 	VVd VVx jVg lVvV VVdVvVV
+	VqVVfVVVVslVvVVVVVc VVVV
+ 	vVlV VVVfVV sVxVVvVVV
+	VVVVcV?VV?ck VbjVV VVVdcsV
+	VVVlj VbVVVVVvVd VfsVVVl
+	slVVVVd VlVVVVd VVVfVjV
+	VsVVdV sVVb VV VcfcV VsqV
+	vlVVVV VVqx lVVcf sVlVV
+	VcVVf VbV VVpjV VfpVV
+	Vvdsl VVd?s Vgsc czVV
+	kVdV... kpVVsV
+ 	VVVV... oVb VVV
+	vdV... VVoVVV 
+ 	VVV. kpVfV V.V..VVVV
+	pVq vV..lk..VVjV
+	Vz...V s.. p.V.V VVVVb
+	VoVp... pVdqV
+	VbVoVb ..bV....VfpcVV
+	VcVV VfVVcV
+	VzV VVdVpv V...fVVV
+	VV VVV...VVVVVVv VVdVV
+	cVV sVoV oVVVVV
+>>>>>>> 715137f (https://github.com/Glottocrisio/MariaLaNova)
+	cV VpVb V...Vl VV

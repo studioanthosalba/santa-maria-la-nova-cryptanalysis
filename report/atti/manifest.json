@@ -1,0 +1,273 @@
+{
+ "documents": [
+  {
+   "extract_written": false,
+   "image_only": true,
+   "label": "Palma 2023, HistoCrypt -- the paper under examination",
+   "n_pages": 9,
+   "note": "no text layer: page images only, read with _pdf_pages.py",
+   "page_px": "1240x1753",
+   "pages": [
+    {
+     "page": 1,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 2,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 3,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 4,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 5,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 6,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 7,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 8,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 9,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    }
+   ],
+   "pdf_bytes": 4849816,
+   "pdf_sha256": "aec01a098ebe4d702169805ef7e11b4ff596e2786b47128677ad59a53229710f",
+   "ppi_at_a4": 150,
+   "source": "View of Encrypted epigraphy - the case of a mysterious inscription in the Neapolitan church of Santa Maria La Nova.pdf",
+   "text_out": "report/atti/palma_histocrypt2023.txt"
+  },
+  {
+   "extract_written": false,
+   "image_only": true,
+   "label": "Antal, Marak, Zajac, Lengyelova, Duchonova -- encrypted documents and surviving cipher keys, Slovak National Archive",
+   "n_pages": 12,
+   "note": "no text layer: page images only, read with _pdf_pages.py",
+   "page_px": "1240x1753",
+   "pages": [
+    {
+     "page": 1,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 2,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 3,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 4,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 5,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 6,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 7,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 8,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 9,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 10,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 11,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 12,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    }
+   ],
+   "pdf_bytes": 9914463,
+   "pdf_sha256": "6b77b10120bd574039fd0e0cdb10c8dec4dc289aac176a72b723493c037d1291",
+   "ppi_at_a4": 150,
+   "source": "View of Encrypted Documents and Cipher Keys From the 18th and 19th Century in the Archives of Aristocratic Families in Slovakia.pdf",
+   "text_out": "report/atti/slovakia_cipher_keys.txt"
+  },
+  {
+   "extract_written": false,
+   "image_only": true,
+   "label": "Layfield et al. 2022 -- Voynich conference report (methodology)",
+   "n_pages": 7,
+   "note": "no text layer: page images only, read with _pdf_pages.py",
+   "page_px": "1240x1753",
+   "pages": [
+    {
+     "page": 1,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 2,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 3,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 4,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 5,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 6,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    },
+    {
+     "page": 7,
+     "raster": {
+      "bits": 8,
+      "filter": "/FlateDecode",
+      "px": "1240x1753"
+     }
+    }
+   ],
+   "pdf_bytes": 2932872,
+   "pdf_sha256": "a02dc21ea250dd576f907e920d893fe03caaad4463bd6adfb5f220448d4526cf",
+   "ppi_at_a4": 150,
+   "source": "View of International Conference on the Voynich Manuscript 2022.pdf",
+   "text_out": "report/atti/voynich2022.txt"
+  }
+ ]
+}

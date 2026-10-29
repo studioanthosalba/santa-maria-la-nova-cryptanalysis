@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+ev
+ci
+qm
+ua*
+fa
+sc
+uf
+du
+rl
+ad
+=======
+ev
+ci
+qm
+ua*
+fa
+sc
+uf
+du
+rl
+ad
+>>>>>>> 715137f (https://github.com/Glottocrisio/MariaLaNova)
+ck

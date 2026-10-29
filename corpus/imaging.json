@@ -1,0 +1,38 @@
+{
+ "images": [
+  {
+   "bytes": 11932,
+   "bytes_per_pixel": 0.236,
+   "cell_px_upper": 14.2,
+   "file": "drac1.jpeg",
+   "height": 225,
+   "line_px_upper": 6.2,
+   "pixels": 50625,
+   "width": 225
+  },
+  {
+   "bytes": 162504,
+   "bytes_per_pixel": 0.292,
+   "cell_px_upper": 34.4,
+   "file": "drac2.webp",
+   "height": 1024,
+   "line_px_upper": 28.4,
+   "pixels": 557056,
+   "width": 544
+  }
+ ],
+ "ocr": {
+  "binaries": [],
+  "modules": [
+   "pytesseract"
+  ],
+  "runnable": []
+ },
+ "reference_geometry": {
+  "basis": "optimistic upper bound: inscription filling the frame, uniform rows",
+  "glyphs": 569,
+  "glyphs_per_line": 15.8,
+  "key": "gemini_full",
+  "rows": 36
+ }
+}

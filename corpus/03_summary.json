@@ -1,0 +1,208 @@
+{
+ "attack": [
+  {
+   "model": "Latin",
+   "natural": -10.092,
+   "reading": "palma_B",
+   "score": -13.452,
+   "shuffled": -13.998,
+   "words": 6
+  },
+  {
+   "model": "Czech",
+   "natural": -10.291,
+   "reading": "palma_B",
+   "score": -13.545,
+   "shuffled": -13.998,
+   "words": 5
+  },
+  {
+   "model": "Italian",
+   "natural": -9.811,
+   "reading": "palma_B",
+   "score": -13.431,
+   "shuffled": -13.998,
+   "words": 6
+  },
+  {
+   "model": "Latin",
+   "natural": -10.567,
+   "reading": "palma_A",
+   "score": -13.577,
+   "shuffled": -13.933,
+   "words": 3
+  },
+  {
+   "model": "Czech",
+   "natural": -10.469,
+   "reading": "palma_A",
+   "score": -13.628,
+   "shuffled": -13.956,
+   "words": 3
+  },
+  {
+   "model": "Italian",
+   "natural": -9.954,
+   "reading": "palma_A",
+   "score": -13.545,
+   "shuffled": -13.949,
+   "words": 4
+  }
+ ],
+ "keys": [
+  {
+   "IC": 0.0521,
+   "key": "VLAD",
+   "p": "0.2394",
+   "random_mean": 0.122,
+   "tri_rep": 0.13
+  },
+  {
+   "IC": 0.0485,
+   "key": "DRACULA",
+   "p": "0.6808",
+   "random_mean": 0.103,
+   "tri_rep": 0.096
+  },
+  {
+   "IC": 0.0469,
+   "key": "TURBOLO",
+   "p": "0.9601",
+   "random_mean": 0.101,
+   "tri_rep": 0.081
+  },
+  {
+   "IC": 0.0524,
+   "key": "MARIA",
+   "p": "0.2868",
+   "random_mean": 0.128,
+   "tri_rep": 0.135
+  },
+  {
+   "IC": 0.0509,
+   "key": "BALSA",
+   "p": "0.9252",
+   "random_mean": 0.131,
+   "tri_rep": 0.114
+  },
+  {
+   "IC": 0.0487,
+   "key": "FERRILLO",
+   "p": "0.3591",
+   "random_mean": 0.081,
+   "tri_rep": 0.086
+  },
+  {
+   "IC": 0.0499,
+   "key": "NAPOLI",
+   "p": "0.8828",
+   "random_mean": 0.106,
+   "tri_rep": 0.092
+  },
+  {
+   "IC": 0.0506,
+   "key": "IESUS",
+   "p": "0.0848",
+   "random_mean": 0.129,
+   "tri_rep": 0.148
+  }
+ ],
+ "null": {
+  "clean_mean": 0.005830880986981643,
+  "nulled_mean": 0.004502558146373071,
+  "observed_gain": 0.007087132761030429,
+  "observed_glyph": "δ",
+  "p": 0.07692307692307693
+ },
+ "self_test": [
+  {
+   "model": "Latin (Vulgate)",
+   "score": -10.461,
+   "truth": -10.461
+  },
+  {
+   "model": "Czech (Bible Kralicka 1613)",
+   "score": -9.991,
+   "truth": -9.991
+  },
+  {
+   "model": "Italian (Riveduta)",
+   "score": -10.105,
+   "truth": -10.105
+  }
+ ],
+ "vowel_attack": [
+  {
+   "model": "Latin (Vulgate)",
+   "reading": "gemini_full",
+   "score": -13.563,
+   "vowels": 5
+  },
+  {
+   "model": "Czech (Bible Kralicka 1613)",
+   "reading": "gemini_full",
+   "score": -13.666,
+   "vowels": 5
+  },
+  {
+   "model": "Italian (Riveduta)",
+   "reading": "gemini_full",
+   "score": -13.511,
+   "vowels": 5
+  },
+  {
+   "model": "Latin (Vulgate)",
+   "reading": "gemini_central",
+   "score": -13.349,
+   "vowels": 5
+  },
+  {
+   "model": "Czech (Bible Kralicka 1613)",
+   "reading": "gemini_central",
+   "score": -13.501,
+   "vowels": 5
+  },
+  {
+   "model": "Italian (Riveduta)",
+   "reading": "gemini_central",
+   "score": -13.234,
+   "vowels": 5
+  },
+  {
+   "model": "Latin (Vulgate)",
+   "reading": "gemini_full",
+   "score": -13.563,
+   "vowels": 5
+  },
+  {
+   "model": "Czech (Bible Kralicka 1613)",
+   "reading": "gemini_full",
+   "score": -13.666,
+   "vowels": 5
+  },
+  {
+   "model": "Italian (Riveduta)",
+   "reading": "gemini_full",
+   "score": -13.511,
+   "vowels": 5
+  },
+  {
+   "model": "Latin (Vulgate)",
+   "reading": "gemini_central",
+   "score": -13.349,
+   "vowels": 5
+  },
+  {
+   "model": "Czech (Bible Kralicka 1613)",
+   "reading": "gemini_central",
+   "score": -13.501,
+   "vowels": 5
+  },
+  {
+   "model": "Italian (Riveduta)",
+   "reading": "gemini_central",
+   "score": -13.234,
+   "vowels": 5
+  }
+ ]
+}

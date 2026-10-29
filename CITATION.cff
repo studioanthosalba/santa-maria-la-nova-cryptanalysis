@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, analytical pipeline, or dataset, please cite it as below."
+authors:
+  - family-names: "Magazzù"
+    given-names: "Antonino"
+    affiliation: "Independent Researcher"
+title: "The Encrypted Epigraph of Santa Maria la Nova: Reproducible Cryptanalysis and Quantitative Falsification of the Vlad III Hypothesis"
+version: 1.0.0
+date-released: 2026-10-29
+url: "https://github.com/antoninomagazzu/santa-maria-la-nova-cryptanalysis"
+keywords:
+  - historical-cryptology
+  - digital-epigraphy
+  - santa-maria-la-nova
+  - vlad-iii
+  - dracula
+  - reproducible-research
+  - index-of-coincidence
+license: MIT

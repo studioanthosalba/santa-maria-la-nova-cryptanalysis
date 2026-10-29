@@ -1,0 +1,78 @@
+<<<<<<< HEAD
+
+	(r/u/n)ο(s/t)(ι/e)...(r/u/n)(ι/e).(s/t)
+	... ... ...
+	... (c/n/d)(b/g/q)(r/u/n)(ι/e)ο(b/g/q)(ι/e).(s/t)
+	(ι/e)(s/t)(c/n/d)ο(l/p)(ι/e) (s/t)(b/g/q)(s/t)(ι/e)(s/t)(c/n/d)(r/u/n) (l/p)(c/n/d)(s/t)(c/n/d)(r/u/n)ο(ι/e)
+	(b/g/q)(s/t)(l/p)(ι/e)(l/p)(c/n/d)(ι/e).(b/g/q)(c/n/d)ο(l/p)...(c/n/d)(ι/e) (b/g/q)ο(c/n/d)ο(ι/e)(s/t)
+	(l/p)(r/u/n)(l/p)(s/t)(b/g/q)(c/n/d) (ι/e)(ι/e)(l/p)(r/u/n)(s/t)(b/g/q)(b/g/q) ο(ι/e)ο(c/n/d)(r/u/n)(ι/e)(b/g/q)   
+	(c/n/d)(b/g/q)(ι/e)(ι/e)(c/n/d)(r/u/n) (l/p)(r/u/n)(s/t). (ι/e)(c/n/d)..(b/g/q). (ι/e)(b/g/q)(ι/e)a
+	(r/u/n)b(l/p)(s/t)(ι/e) (ι/e)(b/g/q)aο(ι/e) οa(b/g/q)(ι/e)(b/g/q)(ι/e) (b/g/q)(c/n/d)(s/t)ο(ι/e)
+	(s/t)(b/g/q)(ι/e)(c/n/d)(c/n/d)(b/g/q)(b/g/q)(b/g/q)(b/g/q) (l/p).(ι/e)(b/g/q) (b/g/q)(c/n/d)(s/t)(b/g/q)a(c/n/d)(c/n/d)(s/t)(r/u/n)
+	(c/n/d)(r/u/n)b.(b/g/q)(ι/e)(ι/e) (l/p)(c/n/d)(b/g/q) (c/n/d)(b/g/q)(ι/e)(s/t)(c/n/d)(r/u/n) (b/g/q).(b/g/q)
+	(b/g/q).(ι/e)(r/u/n)(b/g/q)(b/g/q) (c/n/d)(b/g/q)(s/t)(r/u/n)(ι/e)(c/n/d)(c/n/d)(b/g/q)(b/g/q)(b/g/q)(ι/e) (s/t)(c/n/d)(r/u/n)
+	(l/p)(ι/e)(ι/e)(b/g/q)(ι/e). (ι/e)(l/p)(c/n/d)(c/n/d)b(b/g/q)ο (ι/e)(c/n/d)(s/t)b(ι/e)
+	(l/p)(c/n/d)(s/t)(ι/e)(r/u/n)(b/g/q)ο(c/n/d) (ι/e)(l/p)a(b/g/q)(b/g/q)(ι/e) (c/n/d)(s/t)(b/g/q)(s/t)(c/n/d)(ι/e)
+
+ 	(ι/e)(s/t)(b/g/q) (ι/e)(r/u/n)ο .(ι/e)(b/g/q) (l/p)a(l/p)(ι/e) (r/u/n)a(b/g/q)(ι/e)(l/p)(s/t)(s/t)
+	(r/u/n)a(s/t)(c/n/d)(ι/e)(s/t)(ι/e)(ι/e)b(l/p)(c/n/d)(l/p)(s/t)(s/t)(r/u/n)(c/n/d)(ι/e)(c/n/d) (r/u/n)(ι/e)a(r/u/n)
+ 	(l/p)(c/n/d)(l/p)(ι/e) (ι/e)(s/t)(s/t)(c/n/d)(s/t)(ι/e) baο(r/u/n)(s/t)(l/p)a(ι/e)(s/t)
+	(ι/e)(r/u/n)(ι/e)a(c/n/d)(s/t)(c/n/d)(b/g/q)(ι/e)(b/g/q) (c/n/d)ο.(r/u/n)(ι/e) (ι/e)(r/u/n)(c/n/d)(b/g/q)(c/n/d)b(ι/e)
+	(s/t)(c/n/d)(r/u/n)(l/p)ο (ι/e)οa(r/u/n)(ι/e)(s/t)a(l/p)(ι/e)(b/g/q) (r/u/n)(c/n/d)b(ι/e)(r/u/n)(s/t)(l/p)
+	b(l/p)a(r/u/n)(s/t)a(b/g/q) (ι/e)(l/p)(s/t)(ι/e)(ι/e)a(b/g/q) (ι/e)a(s/t)(c/n/d)a.(ι/e)
+	(ι/e)b(r/u/n)(s/t)(b/g/q)a b(r/u/n)aο (ι/e)(s/t) (s/t)(c/n/d)(c/n/d)(c/n/d)(s/t) (ι/e)b(b/g/q)(r/u/n)
+	(l/p)(l/p)(s/t)(ι/e)(b/g/q)(r/u/n) (ι/e)(s/t)(b/g/q)ο (l/p)(c/n/d)(r/u/n)(c/n/d)(c/n/d) ba(l/p)(r/u/n)(ι/e)
+	(ι/e)(c/n/d)(r/u/n)a(c/n/d) (ι/e)ο(c/n/d) (c/n/d)(s/t)(b/g/q).(c/n/d) (r/u/n)(c/n/d)(b/g/q)(ι/e)(ι/e)
+	(ι/e)(l/p).b(l/p) (ι/e)(s/t).b (ι/e)(b/g/q)b(r/u/n) (c/n/d)(l/p)(ι/e)(r/u/n)
+	(b/g/q)(s/t)(b/g/q)(ι/e)... (b/g/q)(b/g/q)(s/t)(ι/e)ba
+ 	(r/u/n)(c/n/d)(s/t)(r/u/n)... (b/g/q)aο (ι/e)(s/t)(r/u/n)
+
+	(l/p)(b/g/q)(s/t)... (r/u/n)a(b/g/q)(ι/e)(s/t)(s/t) 
+ 	(ι/e)(ι/e)a. .(b/g/q)(s/t)(c/n/d)(ι/e) (r/u/n).a..(ι/e)a(ι/e)(r/u/n)
+	(b/g/q)(r/u/n)(s/t) (l/p)(ι/e)..(l/p)..(r/u/n)(ι/e)..(ι/e)
+	a(l/p)...a b.. (b/g/q).(r/u/n).a (ι/e)(ι/e)(r/u/n)aο
+	a(b/g/q)(s/t)(b/g/q)... (b/g/q)(s/t)(b/g/q)(b/g/q)(r/u/n)
+	(ι/e)ο(s/t)(b/g/q)(ι/e)ο ..ο(ι/e)....(ι/e)(c/n/d)(b/g/q)(c/n/d)a(ι/e)
+	(s/t)(c/n/d)(s/t)(s/t) a(c/n/d)(ι/e)(c/n/d)(c/n/d)(ι/e)
+	(ι/e)(l/p)(s/t) (r/u/n)(s/t)(b/g/q)(s/t)(b/g/q)(l/p) a...(c/n/d)(ι/e)a(ι/e)
+	(ι/e)a a(r/u/n)(ι/e)...(r/u/n)a(r/u/n)(ι/e)(ι/e)(r/u/n)(l/p) (ι/e)a(b/g/q)(s/t)(ι/e)
+	(c/n/d)(r/u/n)(s/t) b(ι/e)(b/g/q)a (b/g/q)a(s/t)a(r/u/n)(c/n/d)
+=======
+	(r/u/n)(b/g/q)(s/t)(ι/e)??(r/u/n)(ι/e)?(s/t)
+	... ... ... (b/g/q)(ι/e)(b/g/q)?????
+	... (c/n/d)(b/g/q)(r/u/n)(ι/e)οk(ι/e).(s/t)
+	(ι/e)(s/t)(c/n/d)ο(l/p)(ι/e) (s/t)(b/g/q)(s/t)(ι/e)ο(c/n/d)(r/u/n) (l/p)(c/n/d)(s/t)(c/n/d)(r/u/n)ο(ι/e)
+	(c/n/d)ο... a(r/u/n)(b/g/q)(ι/e)(b/g/q) (ι/e)(c/n/d)(b/g/q)... (b/g/q)(s/t)(ι/e)?(ι/e)(b/g/q)ο
+	(b/g/q)(s/t)(l/p)(ι/e)(l/p)(c/n/d)(ι/e)?(b/g/q)(c/n/d)ο?...(c/n/d)(ι/e) (b/g/q)w(c/n/d)ο(ι/e)(s/t)
+	z(r/u/n)(l/p)(c/n/d)(b/g/q)(c/n/d) (ι/e)(ι/e)z(r/u/n)(s/t)(b/g/q)(c/n/d) ο(ι/e)w(c/n/d)(r/u/n)(ι/e)(b/g/q)?   
+	(c/n/d)(b/g/q)(ι/e)(ι/e)(c/n/d)(r/u/n) (l/p)(r/u/n)(s/t)? (ι/e)(c/n/d)??(b/g/q)?w(ι/e)(b/g/q)(ι/e)a
+	(r/u/n)bz(s/t)(ι/e) (ι/e)(b/g/q)aο(ι/e) ?οa(b/g/q)(ι/e)w(ι/e) (b/g/q)(c/n/d)(s/t)ο(ι/e)
+	(s/t)(b/g/q)(ι/e)(c/n/d)(c/n/d)(b/g/q)(b/g/q)(ι/e)(b/g/q) (l/p)(r/u/n)(ι/e)(b/g/q) (b/g/q)(c/n/d)(s/t)(ι/e)a(r/u/n)(c/n/d)(s/t)(r/u/n)
+	(c/n/d)(r/u/n)bj(b/g/q)(ι/e)(ι/e) (l/p)(c/n/d)(b/g/q) (c/n/d)(b/g/q)(ι/e)(s/t)(c/n/d)(r/u/n) (b/g/q).(b/g/q)
+	(b/g/q)j(ι/e)(r/u/n)(b/g/q)(b/g/q) (c/n/d)(b/g/q)(s/t)(r/u/n)(ι/e)(c/n/d)(c/n/d)(b/g/q)(b/g/q)(b/g/q)(ι/e) (s/t)(c/n/d)(r/u/n)
+	(l/p)(ι/e)(s/t)(b/g/q)(ι/e). (ι/e)(l/p)(c/n/d)(c/n/d)b(b/g/q)x (ι/e)(c/n/d)(s/t)b(ι/e)
+	(l/p)(c/n/d)(s/t)(ι/e)(r/u/n)(b/g/q)ο(c/n/d) (ι/e)(l/p)a(b/g/q)(b/g/q)(ι/e) (c/n/d)(s/t)(b/g/q)(s/t)(c/n/d)(ι/e)
+ 	(ι/e)(s/t)(b/g/q) (ι/e)(r/u/n)x j(ι/e)(b/g/q) (l/p)a(l/p)(ι/e) (r/u/n)a(b/g/q)(ι/e)(l/p)(s/t)(s/t)
+	(r/u/n)(b/g/q)a(s/t)(c/n/d)(ι/e)(s/t)(ι/e)(ι/e)b(l/p)(c/n/d)(l/p)(s/t)(s/t)(r/u/n)(c/n/d)(ι/e)(c/n/d) (r/u/n)(ι/e)a(r/u/n)
+ 	(l/p)(c/n/d)(l/p)(ι/e) (ι/e)(s/t)(s/t)(c/n/d)(s/t)(ι/e) bax(r/u/n)(s/t)(l/p)a(ι/e)(s/t)
+	(ι/e)(r/u/n)(ι/e)a(c/n/d)a?(s/t)a?(c/n/d)k (c/n/d)οj(r/u/n)(ι/e) (ι/e)(r/u/n)(c/n/d)(b/g/q)(c/n/d)b(ι/e)
+	(s/t)(c/n/d)(r/u/n)(l/p)j (ι/e)οa(r/u/n)(ι/e)(s/t)a(l/p)(ι/e)(b/g/q) (r/u/n)(c/n/d)b(ι/e)(r/u/n)(s/t)(l/p)
+	b(l/p)a(r/u/n)(s/t)a(b/g/q) (ι/e)(l/p)(s/t)(ι/e)(ι/e)a(b/g/q) (ι/e)a(s/t)(c/n/d)aj(ι/e)
+	(ι/e)b(r/u/n)(s/t)(b/g/q)a b(r/u/n)aο (ι/e)(s/t) (s/t)(c/n/d)(c/n/d)(c/n/d)(s/t) (ι/e)b(b/g/q)(r/u/n)
+	(l/p)(l/p)(s/t)(ι/e)a(r/u/n) (ι/e)(s/t)(b/g/q)x (l/p)(c/n/d)(r/u/n)(c/n/d)(c/n/d) ba(l/p)(r/u/n)(ι/e)
+	(ι/e)(c/n/d)(r/u/n)a(c/n/d) (ι/e)ο(c/n/d) (c/n/d)(s/t)(b/g/q)j(c/n/d) (r/u/n)(c/n/d)(b/g/q)(ι/e)(ι/e)
+	(ι/e)(l/p)(b/g/q)b(l/p) (ι/e)(s/t)(b/g/q)?b (ι/e)(b/g/q)b(c/n/d) (c/n/d)z(ι/e)(r/u/n)
+	k(s/t)(b/g/q)(ι/e)... k(b/g/q)(s/t)(ι/e)ba
+ 	(r/u/n)(c/n/d)(s/t)(r/u/n)... (b/g/q)aο (ι/e)(s/t)(r/u/n)
+	(l/p)(b/g/q)(s/t)... (r/u/n)a(b/g/q)(ι/e)(s/t)(s/t) 
+ 	(ι/e)(ι/e)a. k(b/g/q)(s/t)(c/n/d)(ι/e) (r/u/n).a..(ι/e)a(ι/e)(r/u/n)
+	(b/g/q)(r/u/n)(b/g/q) (l/p)(ι/e)..(l/p)k..(r/u/n)(ι/e)j(ι/e)
+	az...a b.. (b/g/q).(r/u/n).a (ι/e)(ι/e)(r/u/n)aο
+	a(b/g/q)(s/t)(b/g/q)... (b/g/q)(s/t)(b/g/q)(b/g/q)(r/u/n)
+	(ι/e)ο(s/t)(b/g/q)(ι/e)ο ..ο(ι/e)....(ι/e)(c/n/d)(b/g/q)(c/n/d)a(ι/e)
+	(s/t)(c/n/d)(s/t)(s/t) a(c/n/d)(ι/e)(r/u/n)(c/n/d)(ι/e)
+	(ι/e)z(s/t) (r/u/n)(s/t)(b/g/q)(s/t)(b/g/q)(l/p) (c/n/d)...(c/n/d)(ι/e)a(ι/e)
+	(ι/e)a a(r/u/n)(ι/e)...(r/u/n)a(r/u/n)(ι/e)(ι/e)(r/u/n)(l/p) (ι/e)a(b/g/q)(s/t)(ι/e)
+	(c/n/d)(r/u/n)(s/t) b(ι/e)(b/g/q)a (b/g/q)a(s/t)(c/n/d)(r/u/n)(c/n/d)
+>>>>>>> 715137f (https://github.com/Glottocrisio/MariaLaNova)
+	(c/n/d)(s/t) (s/t)(b/g/q)(c/n/d)ο (ι/e)...(ι/e)(l/p) (r/u/n)a
