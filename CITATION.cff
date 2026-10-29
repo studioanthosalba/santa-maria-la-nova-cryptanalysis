@@ -7,7 +7,7 @@ authors:
 title: "The Encrypted Epigraph of Santa Maria la Nova: Reproducible Cryptanalysis and Quantitative Falsification of the Vlad III Hypothesis"
 version: 1.0.0
 date-released: 2026-10-29
-url: "https://github.com/antoninomagazzu/santa-maria-la-nova-cryptanalysis"
+url: "https://github.com/studioanthosalba/santa-maria-la-nova-cryptanalysis"
 keywords:
   - historical-cryptology
   - digital-epigraphy

@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://www.python.org/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antoninomagazzu/santa-maria-la-nova-cryptanalysis/blob/main/Santa_Maria_La_Nova_Interactive.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/studioanthosalba/santa-maria-la-nova-cryptanalysis/blob/main/Santa_Maria_La_Nova_Interactive.ipynb)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.pending-blue)](https://zenodo.org)
 [![Author: Antonino Magazzù](https://img.shields.io/badge/Author-Antonino%20Magazzù-orange.svg)](#author)
 
@@ -32,7 +32,7 @@ The inscription (comprising ~600 glyphs in an anomalous, unclassified script) ha
 
 To reproduce all 7 analytical phases directly in your browser without installing anything on your computer, click the button below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antoninomagazzu/santa-maria-la-nova-cryptanalysis/blob/main/Santa_Maria_La_Nova_Interactive.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/studioanthosalba/santa-maria-la-nova-cryptanalysis/blob/main/Santa_Maria_La_Nova_Interactive.ipynb)
 
 ---
 
@@ -44,7 +44,7 @@ To reproduce all 7 analytical phases directly in your browser without installing
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/antoninomagazzu/santa-maria-la-nova-cryptanalysis.git
+git clone https://github.com/studioanthosalba/santa-maria-la-nova-cryptanalysis.git
 cd santa-maria-la-nova-cryptanalysis
 
 # 2. Run the deterministic 7-phase pipeline (~7 minutes total)
